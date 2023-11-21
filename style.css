@@ -92,83 +92,8 @@ h3 {
 #about h2 {
   color: rgb(0, 0, 0);
 }
-.card-body {
-  position: relative;
-  /* left: 5%; */
-  background-color: rgb(206, 234, 222);
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  height: 40vh;
-}
-.card1 {
-  margin: 20px;
-  height: 50vh;
-}
 
-.container {
-  width: 100vw;
-  height: 60vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  word-wrap: wrap;
-}
-.h2 {
-  text-align: center;
-  margin: 15px;
-  padding: 30px;
-  font-family: orbitron;
-}
 
-.project-card {
-  background-color: rgba(215, 231, 222, 0.55);
-  -webkit-box-shadow: 5px 4px 6px 2px rgb(225, 222, 217);
-  box-shadow: 5px 4px 6px 2px rgb(225, 222, 217);
-  border: 0.5px solid rgb(255, 234, 234);
-  width: 300px;
-  height: 350px;
-  /* background-color: rgb(212, 71, 71); */
-  border-radius: 8px;
-  margin: 10px;
-  -webkit-transition: 0.4s all ease-in;
-  -o-transition: 0.4s all ease-in;
-  transition: 0.4s all ease-in;
-}
-.project-card img {
-  position: relative;
-  margin-left: 7%;
-  margin-top: 5%;
-  border-radius: 12px;
-  width: 87%;
-  height: 140px;
-}
-.project-card h2 {
-  position: relative;
-  margin-top: 4%;
-  margin-left: 13%;
-}
-.project-card p {
-  padding: 0px 25px;
-}
-.project-card a {
-  position: relative;
-  left: 25%;
-  margin-top: 1%;
-  background-color: black;
-  padding: 6px 30px;
-  text-decoration: none;
-  color: white;
-  border-radius: 6px;
-  width: 20%;
-}
-.project-card a:hover {
-  background-color: grey;
-}
-.project-card:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
 .bt2 {
   margin-left: 39%;
 }
@@ -200,7 +125,7 @@ h5 {
 footer {
   background-color: #000000;
   height: 100px;
-  margin-top: 50px;
+  margin-top: 160px;
 }
 footer p {
   text-align: center;
@@ -491,4 +416,8 @@ h2 {
       width: 70%;
     }
   }
+}
+
+.row img{
+  width: 100%;
 }
