@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
  
  
   <link rel="stylesheet" href="style.css">
@@ -149,8 +150,13 @@
 
 
       </div>
-      <div class="s-right">
-        <img  src="programmers.png" alt="">
+      <div class="s-right col-lg-6 col-md-6 col-sm-12">
+        <img src="React.js_logo.svg_.png" alt="">
+        <img src="jquery-logo-png-16-16-512.png" alt="">
+        <img src="bootstrap.logo.png" alt="">
+        <img src="logo-javascript_2x_cpugmu.png" alt="">
+       
+        
       </div>
   
     </div>
@@ -206,7 +212,7 @@
         <div class="card-body">
           <h4 class="Card-title">Aspect</h4>
           <p class="Card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus saepe corporis veritatis quam quis aspernatur consectetur in.</p>
-          <button class="btn btn-outline-primary w-100"> Read More</button>
+          <button class="btn btn-outline-primary w-100">View Project</button>
         </div>
       </div>
     </div>
@@ -216,30 +222,31 @@
         <div class="card-body">
           <h4 class="Card-title">Food Order</h4>
           <p class="Card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus saepe corporis accusamus veritatis quam, quos quis aspernatur consectetur in.</p>
-          <button class="btn btn-outline-primary w-100"> Read More</button>
+          <button class="btn btn-outline-primary w-100"> View Project</button>
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-3">
+    <div class="col-md-6 col-lg-3 hide-card">
       <div data-aos="fade-up" class="card shadow mb-4 bg-secondary-subtle">
         <img src="portfolio.jpg" class=" p-3 ">
         <div class="card-body">
           <h4 class="Card-title">Portfolio</h4>
           <p class="Card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus saepe corporis accusamus veritatis quam, quos quis aspernatur consectetur in.</p>
-          <button class="btn btn-outline-primary w-100"> Read More</button>
+          <button class="btn btn-outline-primary w-100">View Project</button>
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-3">
-      <div data-aos="fade-up" class="card shadow mb-4 bg-secondary-subtle">
+    <div class="col-md-6 col-lg-3 hide-card">
+      <div data-aos="fade-up" class="card shadow mb-4 bg-secondary-primary">
         <img src="home.jpg" class=" p-3 ">
         <div class="card-body">
           <h4 class="Card-title">Service Provider</h4>
           <p class="Card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus saepe corporis accusamus veritatis quam, quos quis aspernatur consectetur in.</p>
-          <button class="btn btn-outline-primary w-100"> Read More</button>
+          <button class="btn btn-outline-primary w-100">View Project</button>
         </div>
       </div>
     </div>
+    <button id="button" class="btn btn-success m-4 w-80"> Load More</button>
 
 
 
@@ -294,6 +301,15 @@
       AOS.init();
     </script>
     <script src="script.js"></script>
+    <script>
+      
+
+      $(document).ready(function(){
+            $("button").click(function(){
+            $("div").show(1000);
+            });
+            });
+    </script>
 </body>
 
 </html>

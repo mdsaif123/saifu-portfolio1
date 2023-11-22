@@ -263,7 +263,7 @@ footer p {
   display: -ms-flexbox;
   display: flex;
   margin: 25px;
-  height: 60vh;
+  /* height: 60vh; */
 }
 #new-container h3 {
   text-align: center;
@@ -273,18 +273,20 @@ footer p {
   margin-left: 50%;
 }
 .left1 {
-  width: 50%;
+  width: 60%;
   height: 100%;
   margin: 35px auto;
 }
 .s-right {
-  width: 40%;
-  height: 100vh;
+  width: 35%;
+  height: 60vh;
   margin: 20px;
+
 }
 .s-right img {
-  width: 400px;
-  padding: 20px;
+  width: 220px;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 .left li {

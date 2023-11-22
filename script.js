@@ -19,11 +19,3 @@ istatus.addEventListener('click',function(){
 })
 
 
-
-     
-        const darkMode = document.getElementById("btn");
-        const body = document.body;
-
-        darkMode.addEventListener("click", () => {
-            body.classList.toggle("dark-mode");
-        });
