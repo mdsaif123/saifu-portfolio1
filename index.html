@@ -151,10 +151,10 @@
 
       </div>
       <div class="s-right col-lg-6 col-md-6 col-sm-12">
-        <img src="React.js_logo.svg_.png" alt="">
-        <img src="jquery-logo-png-16-16-512.png" alt="">
-        <img src="bootstrap.logo.png" alt="">
-        <img src="logo-javascript_2x_cpugmu.png" alt="">
+        <img data-aos="fade-up" src="React.js_logo.svg_.png" alt="">
+        <img data-aos="fade-up" src="jquery-logo-png-16-16-512.png" alt="">
+        <img data-aos="fade-up" src="bootstrap.logo.png" alt="">
+        <img data-aos="fade-up" src="logo-javascript_2x_cpugmu.png" alt="">
        
         
       </div>
@@ -167,6 +167,7 @@
 
   <div id="project">
     <h2 class="h2 text-center mt-2 mb-5">Our Project</h2>
+   
     <!-- <div class="container">
 
       <div data-aos="fade-up" class="project-card"  >
@@ -207,7 +208,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-lg-3">
-      <div data-aos="fade-up"  class="card shadow mb-4 bg-secondary-subtle">
+      <div data-aos="fade-up"  class="card shadow mb-4 "">
         <img src="ntech.jpg"  class=" p-3 ">
         <div class="card-body">
           <h4 class="Card-title">Aspect</h4>
@@ -217,7 +218,7 @@
       </div>
     </div>
     <div class="col-md-6 col-lg-3">
-      <div  data-aos="fade-up" class="card shadow mb-4 bg-secondary-subtle">
+      <div  data-aos="fade-up" class="card shadow mb-4">
         <img src="food.jpg" class=" p-3 ">
         <div class="card-body">
           <h4 class="Card-title">Food Order</h4>
@@ -226,17 +227,17 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-3 hide-card">
-      <div data-aos="fade-up" class="card shadow mb-4 bg-secondary-subtle">
+    <div class="col-md-6 col-lg-3 ">
+      <div data-aos="fade-up" class="card shadow mb-4 ">
         <img src="portfolio.jpg" class=" p-3 ">
         <div class="card-body">
           <h4 class="Card-title">Portfolio</h4>
           <p class="Card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus saepe corporis accusamus veritatis quam, quos quis aspernatur consectetur in.</p>
-          <button class="btn btn-outline-primary w-100">View Project</button>
+          <button class="btn btn-outline-primary w-100"> <a href=""></a>View Project</button>
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-3 hide-card">
+    <div class="col-md-6 col-lg-3 ">
       <div data-aos="fade-up" class="card shadow mb-4 bg-secondary-primary">
         <img src="home.jpg" class=" p-3 ">
         <div class="card-body">
@@ -246,7 +247,7 @@
         </div>
       </div>
     </div>
-    <button id="button" class="btn btn-success m-4 w-80"> Load More</button>
+    <!-- <button id="button" class="btn btn-success m-4 w-80%"> Load More</button> -->
 
 
 
@@ -303,12 +304,13 @@
     <script src="script.js"></script>
     <script>
       
-
-      $(document).ready(function(){
+            $(document).ready(function(){
             $("button").click(function(){
-            $("div").show(1000);
-            });
-            });
+                $(".hide-card").toggle(function(){
+
+                })
+            })
+        })
     </script>
 </body>
 
